@@ -203,7 +203,8 @@
     "walkThrough.embeddedEditorBackground": "#151b23",
     "welcomePage.buttonBackground": "#151b23",
     "welcomePage.buttonHoverBackground": "#151b23",
-    "widget.shadow": "#151b23"
+    "widget.shadow": "#151b23",
+    "gitlens.trailingLineForegroundColor": "#3A4451"
   },
   "tokenColors": [
     {
@@ -211,6 +212,13 @@
       "scope": ["punctuation.definition.tag.begin.html"],
       "settings": {
         "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "DOM objects (document, window, ...)",
+      "scope": ["support.type.object.dom.js"],
+      "settings": {
+        "foreground": "#EEF8FB"
       }
     },
     {
