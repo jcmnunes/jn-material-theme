@@ -53,7 +53,7 @@
     "editorError.border": null,
     "editorError.foreground": "#EF5350",
     "editorGroup.border": "#151b23",
-    "editorGroup.dropBackground": "#f73ae473",
+    "editorGroup.dropBackground": "#f73ae40a",
     "editorGroupHeader.noTabsBackground": "#151b23",
     "editorGroupHeader.tabsBackground": "#151b23",
     "editorGroupHeader.tabsBorder": "#262A39",
