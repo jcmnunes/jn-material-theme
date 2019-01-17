@@ -118,6 +118,8 @@
     "list.inactiveSelectionBackground": "#323B48",
     "list.inactiveSelectionForeground": "#EEF8FB",
     "list.invalidItemForeground": "#975f94",
+    "list.errorForeground": "#F16574",
+    "list.warningForeground": "#FFCA57",
     "merge.border": null,
     "merge.currentContentBackground": null,
     "merge.currentHeaderBackground": "#5f7e97",
