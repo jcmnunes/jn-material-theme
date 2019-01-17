@@ -1001,14 +1001,28 @@
       "name": "[VSCODE-CUSTOM] JSON Property Name",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#EEF8FB"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
       "scope": "support.type.property-name.json punctuation",
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] JSON open curly brace",
+      "scope": "punctuation.definition.dictionary.begin.json",
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] JSON close curly brace",
+      "scope": "punctuation.definition.dictionary.end.json",
+      "settings": {
+        "foreground": "#7AD3F3"
       }
     },
     {
@@ -1427,7 +1441,7 @@
       "name": "[VSCODE-CUSTOM] JSON Constants",
       "scope": ["constant.language.json"],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#F78C6C"
       }
     },
     {
