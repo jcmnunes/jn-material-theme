@@ -38,7 +38,7 @@
     "editor.findRangeHighlightBackground": null,
     "editor.foreground": "#EDF8FA",
     "editor.hoverHighlightBackground": "#f73ae45a",
-    "editor.inactiveSelectionBackground": "#f73ae45a",
+    "editor.inactiveSelectionBackground": "#ADD6FF26",
     "editor.lineHighlightBackground": "#323B4855",
     "editor.lineHighlightBorder": null,
     "editor.rangeHighlightBackground": "#f73ae45a",
@@ -207,7 +207,21 @@
   },
   "tokenColors": [
     {
-      "name": "Brackets in HTML tags",
+      "name": "Begin bracket in HTML tags",
+      "scope": ["punctuation.definition.tag.begin.html"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "End bracket in HTML tags",
+      "scope": ["punctuation.definition.tag.end.html"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Brackets in JSX tags",
       "scope": ["punctuation.definition.tag.jsx"],
       "settings": {
         "foreground": "#7AD3F3"
