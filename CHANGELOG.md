@@ -7,6 +7,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 - Gitlens current line blame color
 - Foreground color of files with warnings and errors in the explorer
+- Color of hover highlight background
+
 ### Added
 - Cyan color to HTML tags brackets
 - New colors for JSON 
