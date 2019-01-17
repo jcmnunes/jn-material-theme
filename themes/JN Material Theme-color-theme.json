@@ -37,8 +37,8 @@
     "editor.findMatchHighlightBackground": "#2E3248",
     "editor.findRangeHighlightBackground": null,
     "editor.foreground": "#EDF8FA",
-    "editor.hoverHighlightBackground": "#f73ae45a",
-    "editor.inactiveSelectionBackground": "#f73ae45a",
+    "editor.hoverHighlightBackground": "#f73ae42c",
+    "editor.inactiveSelectionBackground": "#ADD6FF26",
     "editor.lineHighlightBackground": "#323B4855",
     "editor.lineHighlightBorder": null,
     "editor.rangeHighlightBackground": "#f73ae45a",
@@ -53,7 +53,7 @@
     "editorError.border": null,
     "editorError.foreground": "#EF5350",
     "editorGroup.border": "#151b23",
-    "editorGroup.dropBackground": "#f73ae473",
+    "editorGroup.dropBackground": "#f73ae40a",
     "editorGroupHeader.noTabsBackground": "#151b23",
     "editorGroupHeader.tabsBackground": "#151b23",
     "editorGroupHeader.tabsBorder": "#262A39",
@@ -107,7 +107,7 @@
     "inputValidation.infoBorder": "#64B5F6",
     "inputValidation.warningBackground": "#675700F2",
     "inputValidation.warningBorder": "#FFCA28",
-    "list.activeSelectionBackground": "#3A4451",
+    "list.activeSelectionBackground": "#323b48a8",
     "list.activeSelectionForeground": "#EEF8FB",
     "list.dropBackground": "#21272F",
     "list.focusBackground": "#2C343F",
@@ -115,9 +115,11 @@
     "list.highlightForeground": "#EEF8FB",
     "list.hoverBackground": "#21272F",
     "list.hoverForeground": "#EEF8FB",
-    "list.inactiveSelectionBackground": "#323B48",
+    "list.inactiveSelectionBackground": "#323b4886",
     "list.inactiveSelectionForeground": "#EEF8FB",
     "list.invalidItemForeground": "#975f94",
+    "list.errorForeground": "#F16574",
+    "list.warningForeground": "#FFCA57",
     "merge.border": null,
     "merge.currentContentBackground": null,
     "merge.currentHeaderBackground": "#5f7e97",
@@ -152,10 +154,10 @@
     "selection.background": "#616262",
     "sideBar.background": "#21272F",
     "sideBar.border": "#151b23",
-    "sideBar.foreground": "#EEF8FB",
+    "sideBar.foreground": "#a3b8be",
     "sideBarSectionHeader.background": "#21272F",
-    "sideBarSectionHeader.foreground": "#EEF8FB",
-    "sideBarTitle.foreground": "#EEF8FB",
+    "sideBarSectionHeader.foreground": "#a3b8be",
+    "sideBarTitle.foreground": "#a3b8be",
     "statusBar.background": "#21272F",
     "statusBar.border": "#262A39",
     "statusBar.debuggingBackground": "#202431",
@@ -201,11 +203,33 @@
     "walkThrough.embeddedEditorBackground": "#151b23",
     "welcomePage.buttonBackground": "#151b23",
     "welcomePage.buttonHoverBackground": "#151b23",
-    "widget.shadow": "#151b23"
+    "widget.shadow": "#151b23",
+    "gitlens.trailingLineForegroundColor": "#3A4451"
   },
   "tokenColors": [
     {
-      "name": "Brackets in HTML tags",
+      "name": "Begin bracket in HTML tags",
+      "scope": ["punctuation.definition.tag.begin.html"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "DOM objects (document, window, ...)",
+      "scope": ["support.type.object.dom.js"],
+      "settings": {
+        "foreground": "#EEF8FB"
+      }
+    },
+    {
+      "name": "End bracket in HTML tags",
+      "scope": ["punctuation.definition.tag.end.html"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Brackets in JSX tags",
       "scope": ["punctuation.definition.tag.jsx"],
       "settings": {
         "foreground": "#7AD3F3"
@@ -999,14 +1023,28 @@
       "name": "[VSCODE-CUSTOM] JSON Property Name",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#EEF8FB"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
       "scope": "support.type.property-name.json punctuation",
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] JSON open curly brace",
+      "scope": "punctuation.definition.dictionary.begin.json",
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] JSON close curly brace",
+      "scope": "punctuation.definition.dictionary.end.json",
+      "settings": {
+        "foreground": "#7AD3F3"
       }
     },
     {
@@ -1425,7 +1463,7 @@
       "name": "[VSCODE-CUSTOM] JSON Constants",
       "scope": ["constant.language.json"],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#F78C6C"
       }
     },
     {
