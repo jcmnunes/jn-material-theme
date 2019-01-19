@@ -5,6 +5,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.2.0] - 2019-01-19
+### Changed
+- Color of delimiters
+- CSS and SASS styles
+
 ## [0.1.2] - 2019-01-19
 ### Changed
 - Selection color to be more noticeable

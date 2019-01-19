@@ -208,6 +208,90 @@
   },
   "tokenColors": [
     {
+      "name": "Variable scss",
+      "scope": ["variable.scss"],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Open bracket media query scss",
+      "scope": ["punctuation.definition.media-query.begin.bracket.round.scss"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Close bracket media query scss",
+      "scope": ["punctuation.definition.media-query.end.bracket.round.scss"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Close curly brace scss",
+      "scope": ["punctuation.section.property-list.end.bracket.curly.scss"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Open curly brace scss",
+      "scope": ["punctuation.section.property-list.begin.bracket.curly.scss"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Semi colon in SCSS",
+      "scope": ["punctuation.terminator.rule.scss"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Semi colon in CSS",
+      "scope": ["punctuation.terminator.rule.css"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Colon in JSON",
+      "scope": ["punctuation.separator.dictionary.key-value.json"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Commas in JSON",
+      "scope": ["punctuation.separator.dictionary.pair.json"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Commas",
+      "scope": ["meta.delimiter.comma.js"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Curly braces",
+      "scope": ["meta.brace.curly.js"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "Curly braces for obj lit",
+      "scope": ["meta.brace.curly.litobj.js"],
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
       "name": "Begin bracket in HTML tags",
       "scope": ["punctuation.definition.tag.begin.html"],
       "settings": {
@@ -540,7 +624,7 @@
         "punctuation.section.inner-class"
       ],
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#7AD3F3"
       }
     },
     {
@@ -603,8 +687,7 @@
       "name": "Entity Other Attribute Name",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#FFCA57",
-        "fontStyle": "italic"
+        "foreground": "#FFCA57"
       }
     },
     {
@@ -1197,7 +1280,7 @@
         "meta.brace.square.tsx"
       ],
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#7AD3F3"
       }
     },
     {
@@ -1219,7 +1302,7 @@
         "punctuation.terminator.statement.tsx"
       ],
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#7AD3F3"
       }
     },
     {
@@ -1677,7 +1760,7 @@
       "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
       "scope": "meta.property-list.scss punctuation.separator.key-value.scss",
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#EEF8FB"
       }
     },
     {
