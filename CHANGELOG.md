@@ -4,6 +4,8 @@ All notable changes to the "jn-material-theme" extension will be documented in t
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+### Changed
+- Terminal colors
 
 ## [0.2.0] - 2019-01-19
 ### Changed
