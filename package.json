@@ -2,7 +2,7 @@
     "name": "jn-material-theme",
     "displayName": "JN Material Theme",
     "description": "Personal vscode color theme, based on a variant of the Material Theme.",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "icon": "images/icon.jpg",
     "publisher": "jcmnunes",
     "repository": {
