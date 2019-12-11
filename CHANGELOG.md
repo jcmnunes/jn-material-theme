@@ -4,6 +4,12 @@ All notable changes to the "jn-material-theme" extension will be documented in t
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+
+## [0.3.1] - 2019-12-11
+### Changed
+- Fix: Make scrollbar semi-transparent
+
+## [0.3.0] - 2019-12-11
 ### Changed
 - Terminal colors
 
