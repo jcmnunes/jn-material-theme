@@ -5,6 +5,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.0.0] - 2020-02-20
+### Added
+- Use Material darker background
+
+### Changed
+- Fix terminal colors
+- Improve TypeScript support
+
 ## [0.3.1] - 2019-12-11
 ### Changed
 - Fix: Make scrollbar semi-transparent
